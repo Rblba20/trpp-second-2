@@ -11,11 +11,11 @@ import lombok.ToString;
 @Setter
 @ToString
 public class Student {
-    /** Идентификатор. */
+    /** Iдентификатор. */
     @JsonProperty("id")
     @CsvBindByName(column = "id")
     private Long id;
-    /** Имя. */
+    /** Iмя. */
     @JsonProperty("firstName")
     @CsvBindByName(column = "first_name")
     private String firstName;
