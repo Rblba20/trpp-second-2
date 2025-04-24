@@ -37,7 +37,7 @@ dependencies {
 
 
 application {
-    mainClass.set("ru.mirea.trpp_second_2.Application")
+    mainClass.set("ru.mirea.trpp.second2.Application")
 }
 
 java {
@@ -64,7 +64,7 @@ javadoc {
 }
 
 shadowJar {
-    archivesBaseName = "${project.name}"
+    archivesBaseName = "${project.name}-Ладиков"
     libsDirName = "${project.name}"
     classifier('')
 }
